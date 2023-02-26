@@ -3,6 +3,7 @@
 import 'package:age/age.dart';
 import 'package:flutter/cupertino.dart';
 
+//calculation part must hold on char in the app
 class AgeCalculation{
       //Calculate Age of a person
    AgeDuration calculateAge(DateTime today,DateTime birthday ){

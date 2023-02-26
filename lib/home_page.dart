@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
   ];
 
   List<String> _weeks= [
-    "Weeks",
+    "WEEKS",
     "MONDAY",
     "TUESDAY",
     "WEDNESDAY",
