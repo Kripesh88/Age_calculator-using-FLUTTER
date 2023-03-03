@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   late AgeDuration _nextBirthdate;
   late int _nextbdayWeekDay;
 
-  List<String> _months=[
+  List<String> _months=[ //monthdays
     "months",
     "JANUARY",
     "FEBRUARY",
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
     "DECEMBER",
   ];
 
-  List<String> _weeks= [
+  List<String> _weeks= [ //weekdays
     "WEEKS",
     "MONDAY",
     "TUESDAY",

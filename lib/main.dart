@@ -4,7 +4,7 @@ import'package:flutter/material.dart';
 void main(){
   runApp(MyApp());
 }
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget { //stateless widget to edit the contents
   const MyApp({Key? key}) : super(key: key);
 
   @override

@@ -27,7 +27,7 @@ class AgeCalculation{
       return nextBirthdayDuration;
 
     }
-    //Calculate NextBirthday week
+    //Calculate NextBirthday weekdays
       int nextbday(DateTime today,DateTime birthday){
         DateTime temp=DateTime(today.year,birthday.month,birthday.day);
         DateTime nextBirthdayDate=temp.isBefore(today)
